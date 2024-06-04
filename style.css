@@ -1,8 +1,16 @@
-Text
-a[href^="https"] {
-    color: red;
-  }
-  
-  ul + p {
-    font-size: 24px;
-  }
+.btn{
+  margin-left: 850px;
+  background: rebeccapurple;
+  color: cyan;
+  font-size: 30px;
+  border-radius: 20px;
+}
+.pic{
+  width: 1500px;
+  margin-left: 200px;
+  display: none;
+  margin-bottom: 500px;
+}
+.btn:hover ~ img{
+  display: block;
+}
